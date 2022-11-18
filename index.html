@@ -22,6 +22,53 @@
                 <button data-modal-close type="button" class="backdrop-button button"><svg class="icon-close-ikon" width="18" height="18">
                     <use href="./images/hw4/symbol-defs.svg#icon-close-ikon"></use>
                 </svg></button>
+                <strong class="modal-title">Залиште свої дані, ми вам передзвонимо</strong>
+                <form class="modal-form" autocomplete="off">
+                    <ul class="modal-input-group list">
+                    <li class="modal-group-field">
+                        <label class="group-field">
+                            <input class="group-field-input" type="text" name="text">
+                            <span class="group-field-text">Ім'я</span>
+                                <svg class="group-field-ikon" width="18" height="18">
+                                    <use href="./images/hw4/symbol-defs.svg#icon-person"></use>
+                                </svg>
+                        </label>
+                    </li>
+                    <li class="modal-group-field">
+                        <label class="group-field">
+                            <input class="group-field-input" type="tel" name="phone">
+                            <span class="group-field-text">Телефон</span>
+                            <svg class="group-field-ikon" width="18" height="18">
+                                <use href="./images/hw4/symbol-defs.svg#icon-phone"></use>
+                            </svg>
+                        </label>
+                        </li>
+                    </li>
+                    <li class="modal-group-field">
+                        <label class="group-field">
+                            <input class="group-field-input" type="mail" name="mail">
+                            <span class="group-field-text">Пошта</span>
+                            <svg class="group-field-ikon" width="18" height="18">
+                                <use href="./images/hw4/symbol-defs.svg#icon-email"></use>
+                            </svg>
+                        </label>
+                        </li>
+                    </li>
+                    <li class="modal-group-field">
+                        <label class="group-field group-field-textarea">
+                            <textarea class="group-field-input textarea" name="message" cols="" rows="" placeholder="Введіть текст"></textarea>
+                            <span class="group-field-text">Коментар</span>
+                        </label>
+                        </li>
+                    </li>
+                </ul>
+                <label class="checkbox-field">
+                    <input type="checkbox" name="checkbox" class="checkbox">
+                   <span class="checkbox-text"> Погоджуюся з розсилкою та приймаю <a class="checkbox-text-link" href=""> Умови договору</a></span>
+                </label>
+                <div class="btn">
+                <button class="modal-btn button" type="submit">Відправити</button></div>
+                </form>
             </div>
         </div>
         <header class="header">
@@ -302,6 +349,20 @@
                         <use href="./images/hw4/symbol-defs.svg#icon-facebook"></use>
                     </svg></a></li>
             </ul></div>
+            <div class="footer-form">
+                <form class="form-field">
+                    <label class="field">
+                        <span class="footer-form-title title">Підпишіться на розсилку</span>
+                        <input class="mail-field" type="mail" name="mail" placeholder="E-mail">
+                    </label>
+                    <button class="footer-form-button" type="submit"> <div class="form-button-field"><span class="form-button-text">Підписатися</span> 
+                        <svg class="form-ikon" width="24" height="24">
+                            <use href="./images/hw4/symbol-defs.svg#icon-icon-send"></use>
+                        </svg></div>
+                    </button>
+                </form>
+
+            </div>
         </div>
         </footer>  
         <script src="./js/modal.js"></script>
