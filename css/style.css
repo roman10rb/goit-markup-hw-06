@@ -662,6 +662,11 @@ padding: 63px 24px;
     border-radius: 50%;
     background-color: #FFFFFF;
     cursor: pointer;
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.backdrop-button:hover{
+fill: #2196F3;
 }
 .backdrop.is-hidden{
     transform: scale(1.1);
@@ -674,6 +679,7 @@ padding: 63px 24px;
 transform: scale(1.1) translate(-50%, -50%);
 
 }
+
 
 /* -------------------FORM FOOTER------------------ */
 .footer-form-title{
@@ -689,7 +695,12 @@ transform: scale(1.1) translate(-50%, -50%);
 }
 
 .footer-form{
-    margin-left: 93px;
+    margin-left: auto;
+}
+.field{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .mail-field{
@@ -715,6 +726,10 @@ transform: scale(1.1) translate(-50%, -50%);
 }
 
 .footer-form-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
     min-width: 200px;
     padding: 10px 28px;
     background: #2196F3;
@@ -749,7 +764,11 @@ gap: 10px;
 
 
 /* --------------------------MODAL FORM------------------------ */
- 
+ .modal{
+padding: 40px;
+ }
+
+
 .modal-title{
    display: block;
     font-weight: 700;
@@ -762,7 +781,6 @@ gap: 10px;
 }
 
 .modal-input-group{
-padding: 0 40px;
 list-style: none;
 
 }
@@ -825,6 +843,7 @@ width: 100%;
     margin-bottom: 20px;
 }
 .group-field .textarea{
+    display: block;
     padding: 12px 16px;
     min-height: 120px;
     color: inherit;
@@ -842,7 +861,6 @@ width: 100%;
 
 .checkbox-field{
     display: block;
-    padding: 0 52px;
     margin-bottom: 30px;
 }
 .checkbox-text{
